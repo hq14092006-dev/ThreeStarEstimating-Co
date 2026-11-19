@@ -7,6 +7,7 @@ import MissionAndVision from "../components/MissionAndVision";
 import Values from "../components/Values";
 import Services from "../components/Services";
 import Projects from "../components/Projects";
+import Testimonials from "../components/Testimonials";
 import HowItWorks from "../components/HowItWorks";
 import FAQ from "../components/FAQ";
 import GetInTouch from "../components/GetInTouch";
@@ -48,6 +49,7 @@ const HomePage = () => {
       <Values />
       <Services />
       <Projects />
+      <Testimonials />
       <HowItWorks />
       <FAQ />
       <GetInTouch />

@@ -26,7 +26,7 @@ const services: ServiceItem[] = [
       "Skilled workforce",
       "Transparent pricing",
     ],
-    accent: "#FFB800",
+    accent: "#1f2937",
   },
   {
     title: "Renovation & Remodeling",
@@ -40,7 +40,7 @@ const services: ServiceItem[] = [
       "Efficient project management",
       "Cost-conscious planning",
     ],
-    accent: "#2563EB",
+    accent: "#1f2937",
   },
   {
     title: "Commercial Construction",
@@ -54,7 +54,7 @@ const services: ServiceItem[] = [
       "Cost-effective building",
       "Smart infrastructure",
     ],
-    accent: "#10B981",
+    accent: "#1f2937",
   },
 ];
 

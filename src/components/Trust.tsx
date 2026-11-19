@@ -19,7 +19,7 @@ const partners = [
 
 const Trust = () => {
   return (
-    <section className="w-full py-6 sm:py-10 border-y border-gray-500/30" style={{ backgroundColor: '#161415' }}>
+    <section className="w-full py-6 sm:py-10 border-y-0 sm:border-y border-gray-500/30" style={{ backgroundColor: '#161415' }}>
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 px-4 sm:px-6 md:flex-row lg:px-8">
         <motion.div
           initial={{ opacity: 0, x: -20 }}

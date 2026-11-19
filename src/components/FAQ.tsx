@@ -40,25 +40,11 @@ const FAQ = () => {
   return (
     <section
       id="faq"
-      className="relative py-16 sm:py-20 md:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden"
-      style={{ backgroundColor: "#161415" }}
+      className="relative py-16 sm:py-20 md:py-28 px-4 sm:px-6 lg:px-8"
+      style={{ backgroundColor: "#141213" }}
     >
-      {/* Background decorations */}
-      <div
-        className="absolute inset-0 z-0 opacity-[0.02]"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle, #ffffff 1px, transparent 1px)",
-          backgroundSize: "32px 32px",
-        }}
-      />
-      {/* Soft radial glow */}
-      <div
-        className="absolute top-1/2 -left-64 w-[500px] h-[500px] rounded-full opacity-[0.03] blur-3xl pointer-events-none"
-        style={{ backgroundColor: "#FFB800" }}
-      />
 
-      <div className="max-w-[1000px] mx-auto relative z-10">
+      <div className="max-w-[1000px] mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12 sm:mb-16">
           <motion.div

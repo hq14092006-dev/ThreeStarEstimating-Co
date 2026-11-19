@@ -55,7 +55,7 @@ export default function Footer() {
       {/* Credit */}
       <p className="mt-2 text-center text-xs text-white/40">
         Designed & Developed by{" "}
-        <span className="text-white/60 font-medium">Innovex Technologies</span>
+        <span className="text-white/60 font-medium">OptizerX</span>
       </p>
     </footer>
   );
