@@ -55,7 +55,6 @@ const Testimonials = () => {
     [current]
   );
 
-  const prev = () => goTo((current - 1 + testimonials.length) % testimonials.length, -1);
   const next = useCallback(() => goTo((current + 1) % testimonials.length, 1), [current, goTo]);
 
   // Autoplay
